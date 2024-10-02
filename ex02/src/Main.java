@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Cachorro c = new Cachorro();
-        Gato g = new Gato("Marry", "Siâmes", "caminha", "mia");
+        Gato g = new Gato("Carlos", "Siâmes", "caminha", "mia");
 
         Scanner sc = new Scanner(System.in);
 
@@ -24,6 +24,10 @@ public class Main {
         System.out.println("Locomoção: " + g.getLocomocao());
         System.out.println("Mia: " + g.getMia());
 
-
+        System.out.println("Informações do Cachorro:");
+        System.out.println("Nome: " + c.getNome());
+        System.out.println("Raça: " + c.getRaca());
+        System.out.println("Locomoção: " + c.getLocomocao());
+        System.out.println("Mia: " + c.getLate());
     }
 }
